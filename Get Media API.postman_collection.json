@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "f397840f-c0d9-4211-8eb4-58ef4e27df24",
+		"name": "Get Media API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28162741"
+	},
+	"item": [
+		{
+			"name": "get media data",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://testapi.io/api/ottplatform/media",
+					"protocol": "https",
+					"host": [
+						"testapi",
+						"io"
+					],
+					"path": [
+						"api",
+						"ottplatform",
+						"media"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
